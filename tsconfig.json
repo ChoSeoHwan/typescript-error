@@ -1,0 +1,20 @@
+{
+  "include": [
+    "src/index.ts"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "types": [
+      "node"
+    ]
+  }
+}
